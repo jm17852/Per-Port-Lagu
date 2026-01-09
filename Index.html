@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader"></div>
+
+  <!-- Navigation -->
+  <header>
+    <div class="logo"><h2>Lagu</h2></div>
+    <nav id="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#resume">Resume</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi , My Name Is JohnMichael Lagunero</h1>
+        <p>Full Stack Developer | Passionate about creating innovative web solutions</p>
+        <a href="#about" class="cta-button">Learn More</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/Pic.jpg" alt="JohnMichael Lagunero" class="profile-pic">
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="resume">
+    <div class="resume-content">
+      <h2>My Resume</h2>
+      <img src="assets/images/Resume.jpg" alt="Resume" class="resume-image">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>I am a passionate full-stack developer with over 5 years of experience in building web applications. I specialize in JavaScript, React, Node.js, and have a keen interest in modern web technologies and user experience design.</p>
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li><i class="fab fa-html5"></i> HTML</li>
+          <li><i class="fab fa-css3-alt"></i> CSS</li>
+          <li><i class="fab fa-js-square"></i> JAVASCRIPT</li>
+          <li><i class="fas fa-gamepad"></i> GAME MAKING</li>
+          <li><i class="fas fa-code"></i> GODOTS</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Research</h3>
+        <p></p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Play To Protect</h3>
+        <p>A survival game, that work on godots.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>A responsive portfolio, using html css and js.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
